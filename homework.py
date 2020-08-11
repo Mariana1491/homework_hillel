@@ -8,3 +8,5 @@ class QuickstartUser(HttpUser):
     @task
     def index_page(self):
         self.client.get("/forecast/0b456bc491291527b0568143cd84085b/50.401699,30.252512?units=si")
+
+print("hello world")
